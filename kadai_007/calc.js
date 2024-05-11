@@ -2,7 +2,7 @@
 let numB;
 
 // 値の代入
-numB = 2;
+numB = 1;
  
 // 変数numの値を出力する（確認用）
 console.log(numB);
@@ -20,5 +20,5 @@ else if (numB % 5 === 0) {
     console.log('5の倍数です');
 }
 else{
-    console.log('num')
+    console.log(numB)
 }

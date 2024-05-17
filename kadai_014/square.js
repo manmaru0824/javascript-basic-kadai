@@ -1,7 +1,7 @@
-// 与えられた引数を２乗し、その値を出力する
+// 与えられた引数numberを2乗にし、その値を戻り値として返す関数を定義する
 const squaredNumber = (number) => {
-    console.log(number*number);
+    return number*number;
 }
 
-// 関数を呼び出し、引数として購入金額を渡す
-squaredNumber(10)
+ // 関数の戻り値を出力する
+console.log(squaredNumber(10));
